@@ -28,6 +28,8 @@ public class SampleScript {
 		  
 		  for(int i=1;i<=1;)
 		  {
+			  System.out.println("Hello");
+			  
 			  /****************** Step 1 - Open the Excel file **************************************************************/
 			  File f1 = new File("LogicNet.xlsx");
 			  String path = f1.getAbsolutePath();
